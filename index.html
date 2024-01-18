@@ -8,44 +8,76 @@
 </head>
 <body>
     <header class="site-init">
-        <div>
-            <h1>RealEstate</h1>
-            <nav>
-                <a href="#">About</a>
-                <a href="#">Blog</a>
-                <a href="#">Contact</a>
-            </nav>
-        </div>
+        <div class="flex-header-v container">
+
+                <div class="flex-header">
+                <h1>RealEstate</h1>
+                <nav>
+                    <a href="#">About</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
         
-        <p>We sell luxury homes, condiminiums, and penthouses</p>
+        <div class="flex-header">
+            <p>We sell luxury homes, condiminiums, and penthouses</p>
+        </div>
 
     </header>
 
 
-    <main>
+    <main class="container">
         <h2> More about us </h2>
 
-        <div>
+        <div class="flex-about">
             <div>
-                <img src="./Rimg/icon1.svg" alt="security icon">
+                <img src="./img/icon1.svg" alt="security icon">
                 <h3>Security</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ut est neque culpa laboriosam nobis distinctio, adipisci optio unde, iste modi quas! Sequi explicabo incidunt quo corporis nostrum, sunt esse!</p>
             </div>
 
             <div>
-                <img src="./Rimg/icon2.svg" alt="Money">
+                <img src="./img/icon2.svg" alt="Money">
                 <h3>Prices</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ut est neque culpa laboriosam nobis distinctio, adipisci optio unde, iste modi quas! Sequi explicabo incidunt quo corporis nostrum, sunt esse!</p>
             </div>
 
             <div>
-                <img src="./Rimg/icon3.svg" alt="clock">
+                <img src="./img/icon3.svg" alt="clock">
                 <h3>Time</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ut est neque culpa laboriosam nobis distinctio, adipisci optio unde, iste modi quas! Sequi explicabo incidunt quo corporis nostrum, sunt esse!</p>
+            </div><!--.about-item-->
+        </div><!--.flex-about-->
+
+    </main><!-- .main -->
+    <section class="container">
+        <h2>Houses and Penthouses</h2>
+        <div class="house-item">
+            <img src="./img/announcement1.jpg" alt="">
+            <div class="house-item-text container">
+                <h3>Luxury house on the lake</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, mollitia! Cum animi id ullam aut maxime eius aliquam praesentium nemo iste, ducimus dolores. Consequatur, nemo earum vel qui impedit quo?</p>
+            <p>$3,000,000,00</p>
+            <ul class="list-flex">
+                <li class="icon-flex">
+                    <img src="./img/icon_wc.svg" alt="">
+                    <p>3</p>
+                </li>
+                <li>
+                    <img src="./img/icon_parking.svg" alt="">
+                    <p>3</p>
+                </li>
+                <li>
+                    <img src="./img/icon_room.svg" alt="">
+                    <p>3</p>
+                </li>
+            </ul>
             </div>
         </div>
 
-    </main>
+
+
+    </section>
     
 </body>
 </html>
